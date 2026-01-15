@@ -1420,7 +1420,7 @@
                 <!-- Result 1 -->
                 <div class="result-item">
                     <div class="result-url">
-                        <img src="/images/logo.png" style="width:16px; height:16px; object-fit:contain; background:none;">
+                        <img src="/images/atlastelemarketing.png" style="width:16px; height:16px; object-fit:contain; background:none; vertical-align:middle; margin-right:5px;">
                         <span>atlastelemarketing.com</span>
                     </div>
                     <a href="#" class="result-title" onclick="window.updateAddress('/atlastelemarketing.com'); return false;">Atlas Tele Marketing</a>
@@ -1432,7 +1432,7 @@
                 <!-- Result 2 -->
                 <div class="result-item">
                     <div class="result-url">
-                        <img src="/images/logo.png" style="width:16px; height:16px; object-fit:contain; background:none;">
+                        <img src="/images/atlasenergi.png" style="width:16px; height:16px; object-fit:contain; background:none; vertical-align:middle; margin-right:5px;">
                         <span>atlasenergie.nl</span>
                     </div>
                     <a href="#" class="result-title" onclick="window.updateAddress('/atlasenergie.nl'); return false;">Atlas Energie</a>
