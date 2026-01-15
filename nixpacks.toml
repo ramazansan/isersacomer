@@ -1,8 +1,14 @@
 [phases.setup]
-nixPkgs = ["php84", "php84Packages.composer"]
+nixPkgs = ["php84", "php84Packages.composer", "nodejs_20"]
 
 [phases.install]
-cmds = ["composer install --optimize-autoloader --no-dev"]
+cmds = [
+    "composer install --optimize-autoloader --no-dev --no-interaction",
+    "npm ci"
+]
+
+[phases.build]
+cmds = ["npm run build"]
 
 [start]
 cmd = "php -S 0.0.0.0:$PORT -t public"
