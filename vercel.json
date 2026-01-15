@@ -1,8 +1,9 @@
 {
     "version": 2,
+    "outputDirectory": "public",
     "builds": [
         {
-            "src": "/public/index.php",
+            "src": "public/index.php",
             "use": "vercel-php@0.6.0"
         }
     ],
